@@ -91,8 +91,8 @@ HTTPCACHE_DIR = "httpcache"
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
-FEED_EXPORT_ENCODING = 'utf-8'  # JSON 用
-# FEED_EXPORT_ENCODING = 'cp932'  # csv 用
+# FEED_EXPORT_ENCODING = 'utf-8'  # JSON 用
+FEED_EXPORT_ENCODING = 'cp932'  # csv 用
 
 from shutil import which
 
@@ -101,3 +101,9 @@ SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver')
 SELENIUM_DRIVER_ARGUMENTS = ['-headless']  # '--headless' if using chrome instead of firefox
 
 MEDIA_ALLOW_REDIRECTS = True
+
+CONCURRENT_REQUESTS = 1
+
+DEPTH_PRIORITY = 1
+SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleFifoDiskQueue'
+SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.FifoMemoryQueue'
