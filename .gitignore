@@ -1,0 +1,11 @@
+/.scrapy/httpcache
+/old
+/images
+/*画像データ*
+/見積もり
+/実行結果
+/.ipynb_checkpoints
+/ec_scraping/__pycache__
+/*.csv
+/*.xlsx
+/chromedriver.exe
