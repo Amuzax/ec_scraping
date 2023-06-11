@@ -1,6 +1,10 @@
+/.gitignore
 /.scrapy/httpcache
 /old
 /images
+/mercari_images
+/profile
+/extensions
 /*画像データ*
 /見積もり
 /実行結果
