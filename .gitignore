@@ -12,4 +12,5 @@
 /ec_scraping/__pycache__
 /*.csv
 /*.xlsx
+/*.png
 /chromedriver.exe
