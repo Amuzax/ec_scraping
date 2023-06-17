@@ -1,7 +1,7 @@
 /.gitignore
 /.scrapy/httpcache
 /old
-/images
+/*images*
 /mercari_images
 /profile
 /extensions
